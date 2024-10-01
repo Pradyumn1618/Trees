@@ -36,6 +36,7 @@ struct btn* search(struct btn* root,int val){
         root=root->children[i];
            return search(root,val);
     }
+    return NULL;
 }
 void insert2(struct btn* root,int val){
     
